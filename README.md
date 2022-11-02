@@ -33,10 +33,6 @@
 - [x] Usuário remove as pizzas do carrinho
 - [x] Pop-up com a confirmação do pedido realizado
 
-#
-📋 <b>Unit Tests:</b>
-- [x] Unit tests are required
-#
 
  <h2 id="tecnologias">🛠 Tecnologias</h2>
 
