@@ -1,6 +1,6 @@
 import { Router } from "express"
 import { OrderBusiness } from "../business/OrderBusiness"
-import { OrderController } from "../controller/orderController"
+import { OrderController } from "../controller/OrderController"
 import { OrderDatabase } from "../database/OrderDatabase"
 import { IdGenerator } from "../services/IdGenerator"
 
