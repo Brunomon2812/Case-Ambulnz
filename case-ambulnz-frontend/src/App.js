@@ -1,13 +1,14 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import styled from "styled-components"
-import OrderSuccessPopup from "./components/OrderSuccessPopup";
-import { BASE_URL } from "./constants";
-import OrderSummary from "./screens/OrderSummary";
-import PizzasMenu from "./screens/PizzasMenu";
+import OrderSuccessPopup from "./components/order/OrderSuccessPopup";
+import { BASE_URL } from "./constants/constants";
+import OrderSummary from "./components/order/OrderSummary";
+import PizzasMenu from "./components/pizza/PizzasMenu";
+import { Header } from "./components/header/Header";
 
 export const ContainerMain = styled.main`
-    display: flex;
+    /* background-color: #; */
 `
 
 function App() {
@@ -116,6 +117,9 @@ function App() {
 
     return (
         <ContainerMain>
+            <Header>
+                
+            </Header>
             <PizzasMenu addToCart={addToCart} />
             <OrderSummary
                 cart={cart}
