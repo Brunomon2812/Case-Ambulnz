@@ -47,7 +47,7 @@ O projeto é um case proposto pela empresa Ambulnz, e consiste na criação de u
 - [Axios](https://github.com/axios/axios)
 
 ## Repositório com o desafio proposto
-[Desafio ambulnz](https://github.com/AmbulnzLLC/fullstack-challenge)
+[Desafio Ambulnz](https://github.com/AmbulnzLLC/fullstack-challenge)
 
 
 ## AUTOR
