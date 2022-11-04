@@ -7,7 +7,9 @@
 <p>Projeto full-stack simulando a criação de um site de pizzaria com armazenamento de dados!</p>
 
 <h2 id="links">🔗 Links:</h2>
+Site: http://halting-river.surge.sh/
 
+API: http://ec2-44-204-57-105.compute-1.amazonaws.com
 
 <h2 id="features">✔️ Features</h2>
 
