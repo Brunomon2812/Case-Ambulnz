@@ -30,7 +30,7 @@ O projeto é um case proposto pela empresa Ambulnz, e consiste na criação de u
 [API](http://ec2-44-204-57-105.compute-1.amazonaws.com/api/pizzas)
 
 ## 🔗 Link para a documentação no Postman
-[Postman](https://documenter.getpostman.com/view/21554400/2s8YK4t7pC)
+[Postman](https://documenter.getpostman.com/view/21554400/2s8YYCvS5u)
 
 
 
