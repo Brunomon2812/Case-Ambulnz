@@ -1,19 +1,10 @@
-<p id= "voltar"></p>
+# Ambulnz Full-Stack Challenge 🍕
 
-<h1 id="sobre">Ambulnz Full-Stack Challenge 🍕</h1>
+## 🚀 Descrição do Projeto
 
-<p>Ambulnz Full-Stack Challenge.</p>
+O projeto é um case proposto pela empresa Ambulnz, e consiste na criação de um site de pizzaria com armazenamento de dados!
 
-<p>Projeto full-stack simulando a criação de um site de pizzaria com armazenamento de dados!</p>
-
-<h2 id="links">🔗 Links:</h2>
-Site: http://halting-river.surge.sh/
-
-API: http://ec2-44-204-57-105.compute-1.amazonaws.com
-
-<h2 id="features">✔️ Features</h2>
-
-💲 <b>Backend</b>
+## 📋 Funcionalidades Back-End
 
 <p>Criação da API com as funcionalidades de:</p>
 
@@ -22,31 +13,42 @@ API: http://ec2-44-204-57-105.compute-1.amazonaws.com
 - [x] Adicionar ingredientes às pizzas
 - [x] Usuário efetua uma compra
 
-
-#
-⏳ <b>Frontend</b>
+## 📋 Funcionalidades  Front-End
 
 <p>Criação de um site com as funcionalidades de:</p>
 
-
 - [x] Realizar uma compra
 - [x] Visualizar as compras 
-- [x] Logout
 - [x] Usuário remove as pizzas do carrinho
 - [x] Pop-up com a confirmação do pedido realizado
 
 
- <h2 id="tecnologias">🛠 Tecnologias</h2>
+## 🔗 Link para o site
+[Site Pizzaria](http://halting-river.surge.sh/)
 
-- Typescript
-- React.JS
-- Node.JS
-- Javascript
-- APIs Rest
-- MaterialUI
-- Styled-Components
-- Axios
-- Clean Code
+## 🔗 Link para a API
+[API](http://ec2-44-204-57-105.compute-1.amazonaws.com/api/pizzas)
+
+## 🔗 Link para a documentação no Postman
+[Postman](https://documenter.getpostman.com/view/21554400/2s8YK4t7pC)
+
+
+
+## 🛠️ Tecnologias Utilizadas
+
+- [TypeScript](https://www.typescriptlang.org/)  
+- [Node.JS](https://nodejs.org/en/) 
+- [Knex](https://knexjs.org/)  
+- [Render](https://render.com/) 
+- [Jest](https://jestjs.io/) 
+- [Styled-components](https://styled-components.com/) 
+- [React](https://pt-br.reactjs.org/)  
+- [MaterialUI](https://mui.com/pt/)
+- [Axios](https://github.com/axios/axios)
+
+## Repositório com o desafio proposto
+[Desafio ambulnz](https://github.com/AmbulnzLLC/fullstack-challenge)
+
 
 ## AUTOR
 
