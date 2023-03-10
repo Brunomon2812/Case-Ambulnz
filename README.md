@@ -22,13 +22,6 @@ O projeto é um case proposto pela empresa Ambulnz, e consiste na criação de u
 - [x] Usuário remove as pizzas do carrinho
 - [x] Pop-up com a confirmação do pedido realizado
 
-
-## 🔗 Link para o site
-[Site Pizzaria](http://enchanted-toad.surge.sh/)
-
-## 🔗 Link para o deploy na AWS
-[API](http://ec2-52-23-254-87.compute-1.amazonaws.com/api/pizzas)
-
 ## 🔗 Link para a documentação no Postman
 [Postman](https://documenter.getpostman.com/view/21554400/2s8YYCvS5u)
 
