@@ -30,7 +30,7 @@ export class PizzaBusiness {
         }
 
         const response: IGetPizzasOutputDTO = {
-            message: "Pizzas retornadas com sucesso",
+            message: "Pizzas retrieved successfully",
             pizzas: pizzas.map((pizza) => ({
                 name: pizza.getName(),
                 price: pizza.getPrice(),

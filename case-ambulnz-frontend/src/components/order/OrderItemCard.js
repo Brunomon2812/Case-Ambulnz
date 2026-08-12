@@ -13,12 +13,12 @@ function OrderItemCard(props) {
             <p>
                 Pizza {pizza.name}
                 - {pizza.price.toLocaleString(
-                    'pt-br',
+                    'en-US',
                     { style: 'currency', currency: 'USD' }
                 )}
                 {" "} x {pizza.quantity}
             </p>
-            <Button onClick={() => removeFromCart(pizza)}>Remover item</Button>
+            <Button onClick={() => removeFromCart(pizza)}>Remove item</Button>
         </ContainerLi>
     )
 }

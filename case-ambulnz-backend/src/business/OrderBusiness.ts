@@ -15,12 +15,12 @@ export class OrderBusiness {
         const pizzasInput = input.pizzas
 
         if (pizzasInput.length === 0) {
-            throw new ParamsError("Pedido vazio! Informe pelo menos uma pizza")
+            throw new ParamsError("Empty order. Add at least one pizza")
         }
 
         const pizzas = pizzasInput.map((pizza) => {
             if (pizza.quantity <= 0) {
-                throw new ParamsError("Quantidade de pizza inválida! A quantidade mínima é 1")
+                throw new ParamsError("Invalid pizza quantity. The minimum is 1")
             }
 
             return {
@@ -33,7 +33,7 @@ export class OrderBusiness {
             const price = await this.orderDatabase.getPrice(pizza.name)
             
             if (!price) {
-                throw new NotFoundError("Pizza não existe")
+                throw new NotFoundError("Pizza does not exist")
             }
 
             pizza.price = price
@@ -60,7 +60,7 @@ export class OrderBusiness {
         )
 
         const response: ICreateOrderOutputDTO = {
-            message: "Pedido realizado com sucesso",
+            message: "Order placed successfully",
             order: {
                 id: orderId,
                 pizzas,

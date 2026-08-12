@@ -6,7 +6,7 @@
 // import { IdGeneratorMock } from ".././mocks/IdGeneratorMock"
 // import { UserDatabaseMock } from ".././mocks/UserDatabaseMock"
 
-// describe("Testando o método login da UserBusiness", () => {
+// describe("UserBusiness.login", () => {
 //     const userBusiness = new UserBusiness(
 //         new UserDatabaseMock(),
 //         new IdGeneratorMock(),
@@ -14,7 +14,7 @@
 //         new AuthenticatorMock()
 //     )
 
-//     test("Um token é retornado quando o login é bem-sucedido", async () => {
+//     test("returns a token when the login succeeds", async () => {
 //         const input: ILoginInputDTO = {
 //             email: "astrodev@gmail.com",
 //             password: "bananinha"
@@ -40,7 +40,7 @@
 //         } catch (error) {
 //             if (error instanceof BaseError) {
 //                 expect(error.statusCode).toBe(400)
-//                 expect(error.message).toBe("Parâmetro 'password' inválido: mínimo de 6 caracteres")
+//                 expect(error.message).toBe("Invalid 'password' parameter: must be at least 6 characters long")
 //             }
 //         }
 //     })

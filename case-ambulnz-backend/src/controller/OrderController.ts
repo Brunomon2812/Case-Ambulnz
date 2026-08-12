@@ -21,7 +21,7 @@ export class OrderController {
             if (error instanceof BaseError) {
                 return res.status(error.statusCode).send({ message: error.message })
             }
-            res.status(500).send({ message: "Erro inesperado ao criar pedido" })
+            res.status(500).send({ message: "Unexpected error while creating the order" })
         }
     }
 
@@ -34,7 +34,7 @@ export class OrderController {
             if (error instanceof BaseError) {
                 return res.status(error.statusCode).send({ message: error.message })
             }
-            res.status(500).send({ message: "Erro inesperado ao buscar pedidos" })
+            res.status(500).send({ message: "Unexpected error while fetching orders" })
         }
     }
 }

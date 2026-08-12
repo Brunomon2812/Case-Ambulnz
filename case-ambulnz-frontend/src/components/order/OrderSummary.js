@@ -23,7 +23,7 @@ function OrderSummary(props) {
 
   return (
     <ContainerSection>
-      <h1>Resumo do pedido</h1>
+      <h1>Order summary</h1>
 
       {cart.map((pizza) => {
         return (
@@ -37,9 +37,9 @@ function OrderSummary(props) {
 
       <h2>
         Total:{" "}
-        {total.toLocaleString("pt-br", { style: "currency", currency: "USD" })}
+        {total.toLocaleString("en-US", { style: "currency", currency: "USD" })}
       </h2>
-      <Button variant="contained" onClick={confirmOrder}>Confirmar pedido</Button>
+      <Button variant="contained" onClick={confirmOrder}>Confirm order</Button>
     </ContainerSection>
   );
 }

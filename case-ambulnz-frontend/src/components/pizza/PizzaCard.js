@@ -56,7 +56,7 @@ function PizzaCard(props) {
       <PizzaImage src={pizzaImages(pizza.name)} alt={pizza.name}></PizzaImage>
       <h3>{pizza.name}</h3>
       <p className="card-price">
-        {pizza.price.toLocaleString("pt-br", {
+        {pizza.price.toLocaleString("en-US", {
           style: "currency",
           currency: "USD",
         })}
@@ -76,7 +76,7 @@ function PizzaCard(props) {
           }
         })}
       </p>
-      <Button variant="outlined" onClick={() => addToCart(pizza)}>Adicionar no carrinho</Button>
+      <Button variant="outlined" onClick={() => addToCart(pizza)}>Add to cart</Button>
     </ContainerLi>
   );
 }

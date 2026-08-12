@@ -5,7 +5,7 @@
 // import { IdGeneratorMock } from ".././mocks/IdGeneratorMock"
 // import { UserDatabaseMock } from ".././mocks/UserDatabaseMock"
 
-// describe("Testando o método signup da UserBusiness", () => {
+// describe("UserBusiness.signup", () => {
 //     const userBusiness = new UserBusiness(
 //         new UserDatabaseMock(),
 //         new IdGeneratorMock(),
@@ -13,7 +13,7 @@
 //         new AuthenticatorMock()
 //     )
 
-//     test("Um token é retornado quando o cadastro é bem-sucedido", async () => {
+//     test("returns a token when the signup succeeds", async () => {
 //         const input: ISignupInputDTO = {
 //             email: "teste@gmail.com",
 //             name: "Teste",

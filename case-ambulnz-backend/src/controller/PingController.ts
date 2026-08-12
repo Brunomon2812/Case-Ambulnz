@@ -16,7 +16,7 @@ export class PingController {
             if (error instanceof BaseError) {
                 return res.status(error.statusCode).send({ message: error.message })
             }
-            res.status(500).send({ message: "Erro inesperado no endpoint ping" })
+            res.status(500).send({ message: "Unexpected error on the ping endpoint" })
         }
     }
 }
